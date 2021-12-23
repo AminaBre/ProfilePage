@@ -1,10 +1,10 @@
 <template>
   <div class="main-container p-5">
     <div class="row">
-      <div class="col-sm-5 col-md-6 sidebar-container">
+      <div class="col-md-6 col-lg-5 sidebar-container">
         <Sidebar />
       </div>
-      <div class="col-sm-7 col-md-6 content-container">
+      <div class="col-md-6 col-lg-7 content-container">
         <AboutMe />
         <TechnicalSkills />
       </div>
@@ -53,7 +53,7 @@ export default {
   color: #fff;
 }
 .sidebar-container {
-  background-color: #c0857b;
+  background-color: #ffffff;
 }
 
 .contact-container {
