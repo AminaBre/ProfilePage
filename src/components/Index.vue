@@ -1,11 +1,11 @@
 <template>
-  <div class="main-container">
+  <div class="main-container p-5">
     <div class="row">
-      <div class="col-5 bg-primary">
+      <div class="col-sm-6 sidebar-container bg-success">
         <Sidebar />
       </div>
-      <div class="col-7">
-        <h1>Hei</h1>
+      <div class="col-sm-6 content-container">
+        <h1 class="pt-4">Content-Container</h1>
       </div>
     </div>
   </div>
@@ -26,5 +26,10 @@ export default {
 .main-container {
   min-height: 100vh;
   background-color: rgb(235, 230, 224);
+}
+
+.content-container {
+  background-color: #c0857b;
+  color: #fff;
 }
 </style>
