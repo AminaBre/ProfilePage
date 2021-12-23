@@ -1,11 +1,11 @@
 <template>
   <div class="main-container p-5">
     <div class="row">
-      <div class="col-sm-6 sidebar-container bg-success">
+      <div class="col-sm-5 col-md-6 sidebar-container">
         <Sidebar />
       </div>
-      <div class="col-sm-6 content-container">
-        <h1 class="pt-4">Content-Container</h1>
+      <div class="col-sm-7 col-md-6 content-container">
+        <AboutMe />
       </div>
     </div>
   </div>
@@ -13,11 +13,13 @@
 
 <script>
 import Sidebar from './Sidebar.vue';
+import AboutMe from './AboutMe.vue';
 
 export default {
   name: 'Index',
   components: {
     Sidebar,
+    AboutMe,
   },
 };
 </script>
@@ -25,11 +27,15 @@ export default {
 <style scoped>
 .main-container {
   min-height: 100vh;
-  background-color: rgb(235, 230, 224);
+  background-color: rgb(240, 235, 233);
 }
 
 .content-container {
   background-color: #c0857b;
   color: #fff;
+}
+.sidebar-container {
+  height: 100vh;
+  background-color: #c0857b;
 }
 </style>

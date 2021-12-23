@@ -1,18 +1,18 @@
 <template>
   <div class="col navigation-content">
     <div class="row">
-      <h1>S</h1>
+      <font-awesome-icon icon="user" size="2x" class="p-0" />
     </div>
-    <div class="row">
-      <h1>S</h1>
-    </div>
-
-    <div class="row">
-      <h1>S</h1>
+    <div class="row mt-4">
+      <font-awesome-icon icon="cogs" size="2x" class="p-0" />
     </div>
 
-    <div class="row">
-      <h1>S</h1>
+    <div class="row mt-4">
+      <font-awesome-icon icon="code" size="2x" class="p-0" />
+    </div>
+
+    <div class="row mt-4">
+      <font-awesome-icon icon="envelope" size="2x" class="p-0" />
     </div>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  color: blue;
+.navigation-content {
+  color: white;
 }
 </style>
