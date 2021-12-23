@@ -1,5 +1,5 @@
 <template>
-  <div class="row mt-5">
+  <div class="row mt-4">
     <div class="col">
       <div class="row">
         <h1>Amina Brenneng</h1>
