@@ -1,23 +1,25 @@
 <template>
-  <div class="main-container p-5">
-    <div class="row">
-      <div class="col-md-6 col-lg-5 sidebar-container">
-        <Sidebar />
+  <transition name="fade" appear>
+    <div class="main-container p-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-5 sidebar-container">
+          <Sidebar />
+        </div>
+        <div class="col-md-6 col-lg-7 content-container">
+          <AboutMe />
+          <TechnicalSkills />
+        </div>
       </div>
-      <div class="col-md-6 col-lg-7 content-container">
-        <AboutMe />
-        <TechnicalSkills />
+      <div class="row">
+        <div class="col history-container"><History /></div>
+      </div>
+      <div class="row">
+        <div class="col contact-container">
+          <Contact />
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col history-container"><History /></div>
-    </div>
-    <div class="row">
-      <div class="col contact-container">
-        <Contact />
-      </div>
-    </div>
-  </div>
+  </transition>
 </template>
 
 <script>
