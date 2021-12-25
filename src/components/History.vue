@@ -77,25 +77,25 @@ export default {
   background-color: white;
   color: black;
   position: relative;
-  left: -20px;
   width: 104%;
   margin-top: 5%;
   padding-left: 10%;
   padding-top: 5%;
   text-align: left;
   box-shadow: 0px 0px 15px 5px #4a343454;
+  margin-right: 10%;
 }
 
 .work-card {
   background-color: white;
   color: black;
   position: relative;
-  left: 20px;
-  width: 104%;
+  width: 100%;
   margin-top: 5%;
   padding-left: 10%;
   padding-top: 5%;
   text-align: left;
   box-shadow: 0px 0px 15px 5px #4a343454;
+  margin-left: 2%;
 }
 </style>

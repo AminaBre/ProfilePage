@@ -9,8 +9,8 @@
         <TechnicalSkills />
       </div>
     </div>
-    <div class="row history-container">
-      <div class="col"><History /></div>
+    <div class="row">
+      <div class="col history-container"><History /></div>
     </div>
     <div class="row">
       <div class="col contact-container">
