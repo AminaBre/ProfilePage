@@ -13,10 +13,7 @@
       <div class="col"><History /></div>
     </div>
     <div class="row">
-      <div class="col-sm-5 col-md-6 sidebar-container">
-        <Sidebar />
-      </div>
-      <div class="col-sm-7 col-md-6 contact-container">
+      <div class="col contact-container">
         <Contact />
       </div>
     </div>
@@ -53,12 +50,11 @@ export default {
   color: #fff;
 }
 .sidebar-container {
-  background-color: #ffffff;
+  background-color: #c0857b;
 }
 
 .contact-container {
   background-color: #c0857b;
-  position: relative;
 }
 
 .history-container {

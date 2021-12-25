@@ -26,5 +26,7 @@ export default {
 <style scoped>
 .navigation-content {
   color: white;
+  position: relative;
+  top: 30%;
 }
 </style>

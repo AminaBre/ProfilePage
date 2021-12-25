@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
+
 import {
   faUser,
   faCogs,
@@ -12,6 +13,7 @@ import {
   faBookReader,
   faUsers,
 } from '@fortawesome/free-solid-svg-icons';
+
 import App from './App.vue';
 
 library.add(faUser, faCogs, faCode, faEnvelope, faFeatherAlt, faBookReader, faUsers);

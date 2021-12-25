@@ -22,7 +22,7 @@
             <li>Bootstrap</li>
             <li>Moqups</li>
             <li>Adobe XD</li>
-            <li>Github</li>
+            <li>Git</li>
             <li>Node</li>
             <li>MongoDB</li>
           </ul>

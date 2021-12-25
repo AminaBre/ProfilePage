@@ -1,17 +1,17 @@
 <template>
-  <div class="row mt-4">
-    <div class="col contact-content py-4">
+  <div class="row contact-container">
+    <div class="col contact-content p-5 m-5">
       <div class="row">
         <h1>Contact me</h1>
       </div>
       <div class="row contact-info">
-        <div class="col-4 icons">
+        <div class="col-4 icons py-2">
           <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
           <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
           <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
           <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
         </div>
-        <div class="col-8 links">
+        <div class="col-8 links py-2">
           <div class="row"><p>aminahb@live.no</p></div>
           <div class="row"><p>+4740644715</p></div>
           <div class="row"><p>githublink</p></div>
@@ -30,8 +30,6 @@ export default {
 
 <style scoped>
 .contact-content {
-  position: absolute;
-  top: 20%;
   background-color: white;
   box-shadow: 0px 0px 15px 5px #4a343454;
 }

@@ -1,10 +1,10 @@
 <template>
-  <div class="row mt-3 history">
-    <div class="col-sm-6 pt-3">
+  <div class="row my-3 history">
+    <div class="col-sm-6 pt-3 education-content">
       <div class="row">
         <h3>Education</h3>
       </div>
-      <div class="row education-card">
+      <div class="row education-card mb-5">
         <h5>Frontend and Mobile Development</h5>
         <h6>Bachelors degree, Høyskolen Kristiania</h6>
         <p>
@@ -27,7 +27,7 @@
       <div class="row">
         <h3>Work History</h3>
       </div>
-      <div class="row work-card">
+      <div class="row work-card mb-5">
         <h5>Front-end Developer</h5>
         <h6>BDO, 2021 - present</h6>
         <p>
@@ -36,7 +36,7 @@
           quisquam quaerat quidem molestias obcaecati animi.
         </p>
       </div>
-      <div class="row work-card">
+      <div class="row work-card mb-5">
         <h5>Front-end Developer</h5>
         <h6>BDO, 2021 - present</h6>
         <p>
@@ -46,7 +46,7 @@
         </p>
       </div>
 
-      <div class="row work-card">
+      <div class="row work-card mb-5">
         <h5>Front-end Developer</h5>
         <h6>BDO, 2021 - present</h6>
         <p>
@@ -69,6 +69,9 @@ export default {
 .history {
   color: white;
 }
+.education-content {
+  border-right: 1px solid white;
+}
 
 .education-card {
   background-color: white;
@@ -76,7 +79,7 @@ export default {
   position: relative;
   left: -20px;
   width: 104%;
-  margin-top: 10%;
+  margin-top: 5%;
   padding-left: 10%;
   padding-top: 5%;
   text-align: left;
@@ -89,7 +92,7 @@ export default {
   position: relative;
   left: 20px;
   width: 104%;
-  margin-top: 10%;
+  margin-top: 5%;
   padding-left: 10%;
   padding-top: 5%;
   text-align: left;
