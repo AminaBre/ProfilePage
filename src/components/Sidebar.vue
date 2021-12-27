@@ -5,8 +5,8 @@
     </div>
     <div class="col image-container">
       <div class="row">
-        <img src="../assets/profilepic.png" class="p-0" />
-        <div class="row about-me-container p-0 m-0">
+        <img src="../assets/fadeout-profile.jpg" class="p-0" />
+        <div class="row about-me-container m-0">
           <p class="name mx-0 my-2">Amina Brenneng</p>
           <div class="col">
             <a href="https://www.linkedin.com/in/amina-brenneng-699190b0" target="_blank"
@@ -25,7 +25,7 @@
               <font-awesome-icon :icon="['fas', 'envelope']" size="2x" class="p-0" />
             </a>
           </div>
-          <button class="btn-md btn-primary py-3 mt-3">Download CV</button>
+          <button class="btn-md btn-outline-dark py-3 mt-3">Download CV</button>
         </div>
       </div>
     </div>
@@ -48,21 +48,23 @@ export default {
   width: 33%;
   left: 9%;
   position: absolute;
+  overflow: hidden;
   top: 0px;
   height: 100vh;
 }
 
 img {
-  position: absolute;
+  position: relative;
+  justify-content: center;
   background-color: white;
-  width: 700px;
+  min-width: 450px;
 }
 
 .about-me-container {
-  background-color: rgba(240, 237, 233, 0.678);
+  background-color: rgba(240, 237, 233, 0.301);
   width: 100%;
   position: absolute;
-  bottom: 0%;
+  bottom: 10px;
 }
 
 .name {
