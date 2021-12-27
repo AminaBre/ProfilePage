@@ -5,10 +5,7 @@
         <h1>Contact me</h1>
       </div>
       <div class="row contact-info">
-        <div class="col-5">
-          <img src="../assets/profilepic.png" class="mw-100" />
-        </div>
-        <div class="col-1 icons">
+        <div class="col-6 icons">
           <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
           <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
           <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
@@ -35,6 +32,7 @@ export default {
 .contact-content {
   background-color: white;
   box-shadow: 0px 0px 15px 5px #4a343454;
+  color: black;
 }
 
 .contact-info {

@@ -1,21 +1,17 @@
 <template>
   <transition name="fade" appear>
-    <div class="main-container p-5">
+    <div class="main-container p-md-5">
       <div class="row">
         <div class="col-md-6 col-lg-5 sidebar-container">
           <Sidebar />
         </div>
-        <div class="col-md-6 col-lg-7 content-container">
+        <div class="col d-md-none content-container-mobile">
           <AboutMe />
           <TechnicalSkills />
+          <History />
         </div>
-      </div>
-      <div class="row">
-        <div class="col history-container"><History /></div>
-      </div>
-      <div class="row">
-        <div class="col contact-container">
-          <Contact />
+        <div class="col-md-6 col-lg-7 d-none d-md-block content-container">
+          <router-view />
         </div>
       </div>
     </div>
@@ -27,7 +23,6 @@ import Sidebar from './Sidebar.vue';
 import AboutMe from './AboutMe.vue';
 import TechnicalSkills from './TechnicalSkills.vue';
 import History from './History.vue';
-import Contact from './Contact.vue';
 
 export default {
   name: 'Index',
@@ -36,21 +31,28 @@ export default {
     AboutMe,
     TechnicalSkills,
     History,
-    Contact,
   },
 };
 </script>
 
 <style scoped>
 .main-container {
-  min-height: 100vh;
-  background-color: rgb(240, 235, 233);
+  height: 100vh;
+  background-color: rgb(238, 225, 220);
 }
 
 .content-container {
   background-color: #c0857b;
   color: #fff;
+  overflow: auto;
+  height: 90vh;
 }
+
+.content-container-mobile {
+  background-color: #c0857b;
+  color: #fff;
+}
+
 .sidebar-container {
   background-color: #c0857b;
 }
