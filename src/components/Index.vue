@@ -55,6 +55,7 @@ export default {
 
 .sidebar-container {
   background-color: #c0857b;
+  height: 90vh;
 }
 
 .contact-container {

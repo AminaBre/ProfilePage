@@ -2,13 +2,13 @@
   <div class="row mt-4">
     <div class="col">
       <div class="row">
-        <h1>Amina Brenneng</h1>
+        <h1>About me</h1>
       </div>
       <hr />
       <div class="row facts">
-        <div class="col"><p>Oslo</p></div>
-        <div class="col"><p>Front-end Developer</p></div>
-        <div class="col"><p>25 yrs</p></div>
+        <div class="col"><h5>Oslo</h5></div>
+        <div class="col"><h5>Front-end Developer</h5></div>
+        <div class="col"><h5>25 yrs</h5></div>
       </div>
       <div class="row mt-2 px-4">
         <p>
@@ -25,15 +25,15 @@
       <div class="row mt-4">
         <div class="col">
           <font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" />
-          <p>Creative</p>
+          <h5>Creative</h5>
         </div>
         <div class="col">
           <font-awesome-icon icon="book-reader" size="2x" class="p-0 tan" />
-          <p>Fast learner</p>
+          <h5>Fast learner</h5>
         </div>
         <div class="col">
           <font-awesome-icon icon="users" size="2x" class="p-0 tan" />
-          <p>Team player</p>
+          <h5>Team player</h5>
         </div>
       </div>
       <hr />
@@ -49,7 +49,7 @@ export default {
 
 <style scoped>
 .facts {
-  color: rgb(96, 55, 40);
+  color: rgb(62, 26, 13);
 }
 
 .tan {

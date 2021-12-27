@@ -19,7 +19,7 @@
     </div>
 
     <div class="row mt-4">
-      <router-link to="/contact">
+      <router-link to="/contact" tag="a">
         <font-awesome-icon icon="envelope" size="2x" class="p-0" />
       </router-link>
     </div>
@@ -36,8 +36,23 @@ export default {
 router-link {
   color: white;
 }
+
 .navigation-content {
   position: relative;
   top: 33%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(62, 26, 13);
+  transform: scale(1.2);
+}
+
+a.router-link-active {
+  color: rgb(62, 26, 13);
+  transform: scale(1.2);
 }
 </style>

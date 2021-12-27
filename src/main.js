@@ -12,10 +12,24 @@ import {
   faFeatherAlt,
   faBookReader,
   faUsers,
+  faGraduationCap,
+  faGlasses,
+  faShieldAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import App from './App.vue';
 import router from './router';
 
-library.add(faUser, faCogs, faCode, faEnvelope, faFeatherAlt, faBookReader, faUsers);
+library.add(
+  faUser,
+  faCogs,
+  faCode,
+  faEnvelope,
+  faFeatherAlt,
+  faBookReader,
+  faUsers,
+  faGraduationCap,
+  faGlasses,
+  faShieldAlt,
+);
 
 createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
