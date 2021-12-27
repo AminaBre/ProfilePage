@@ -65,4 +65,9 @@ export default {
 .history-container {
   background-color: #5b3832;
 }
+@media screen and (min-width: 0px) and (max-width: 766px) {
+  .sidebar-container {
+    height: 50vh;
+  }
+}
 </style>

@@ -16,6 +16,8 @@ import {
   faGlasses,
   faShieldAlt,
 } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import App from './App.vue';
 import router from './router';
 
@@ -30,6 +32,8 @@ library.add(
   faGraduationCap,
   faGlasses,
   faShieldAlt,
+  faGithub,
+  faLinkedin,
 );
 
 createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

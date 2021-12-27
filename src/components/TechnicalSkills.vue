@@ -55,6 +55,7 @@ li {
   border-bottom: 2px solid rgb(241, 231, 231);
   margin: 5px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 li:hover {
