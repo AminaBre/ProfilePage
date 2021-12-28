@@ -36,10 +36,6 @@
 
 <script>
 export default {
-  data() {
-    return { value: 45, max: 100 };
-  },
-
   name: 'TechnicalSkills',
 };
 </script>

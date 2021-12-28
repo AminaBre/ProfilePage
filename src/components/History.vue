@@ -133,7 +133,7 @@ export default {
 }
 
 .education-content {
-  border-right: 1px solid white;
+  border-right: 0.5px solid white;
 }
 
 .education-content .header-icon {

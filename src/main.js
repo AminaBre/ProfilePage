@@ -9,12 +9,15 @@ import {
   faCogs,
   faCode,
   faEnvelope,
-  faFeatherAlt,
+  faLightbulb,
   faBookReader,
   faUsers,
   faGraduationCap,
   faGlasses,
   faShieldAlt,
+  faComment,
+  faPhone,
+  faLaptopCode,
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -26,7 +29,7 @@ library.add(
   faCogs,
   faCode,
   faEnvelope,
-  faFeatherAlt,
+  faLightbulb,
   faBookReader,
   faUsers,
   faGraduationCap,
@@ -34,6 +37,9 @@ library.add(
   faShieldAlt,
   faGithub,
   faLinkedin,
+  faComment,
+  faPhone,
+  faLaptopCode,
 );
 
 createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

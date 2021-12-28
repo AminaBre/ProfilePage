@@ -4,6 +4,12 @@
       <div class="row">
         <h1>About me</h1>
       </div>
+      <div class="row my-2">
+        <h5>
+          I wish to create innovative user experiences, that excels the customers expectations.
+        </h5>
+      </div>
+
       <hr />
       <div class="row facts">
         <div class="col"><h5>Oslo</h5></div>
@@ -12,23 +18,23 @@
       </div>
       <div class="row mt-2 px-4">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-          a galley of type and scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+          My name is Amina, I'm currently writing my bachelor thesis for Frontend and Mobile
+          Development at Høyskolen Kristiania. I have always had a passion for technology and
+          innovation, but I also have an eye for customer experience optimization and design. I love
+          to challenge myself, and front-end development allows me to combine all of my skills while
+          still being able to learn new things every single day. For the past two years I have
+          combined being a full-time student and working three part-time jobs. I'm a very hard
+          worker that always strive to be the best at what I do.
         </p>
       </div>
       <hr />
       <div class="row mt-4">
         <div class="col">
-          <font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" />
+          <font-awesome-icon icon="lightbulb" size="2x" class="p-0 tan" />
           <h5>Creative</h5>
         </div>
         <div class="col">
-          <font-awesome-icon icon="book-reader" size="2x" class="p-0 tan" />
+          <font-awesome-icon icon="laptop-code" size="2x" class="p-0 tan" />
           <h5>Fast learner</h5>
         </div>
         <div class="col">

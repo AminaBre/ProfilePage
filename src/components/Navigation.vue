@@ -20,7 +20,7 @@
 
     <div class="row mt-4">
       <router-link to="/contact" tag="a">
-        <font-awesome-icon icon="envelope" size="2x" class="p-0" />
+        <font-awesome-icon icon="comment" size="2x" class="p-0" />
       </router-link>
     </div>
   </div>
@@ -39,7 +39,7 @@ router-link {
 
 .navigation-content {
   position: relative;
-  top: 33%;
+  top: 30vh;
 }
 
 a {

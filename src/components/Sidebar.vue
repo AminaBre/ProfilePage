@@ -13,13 +13,11 @@
               ><font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="p-0"
             /></a>
           </div>
-
           <div class="col">
             <a href="https://github.com/AminaBre" target="_blank">
               <font-awesome-icon :icon="['fab', 'github']" size="2x" class="p-0" />
             </a>
           </div>
-
           <div class="col">
             <a href="mailto:aminahb@live.no">
               <font-awesome-icon :icon="['fas', 'envelope']" size="2x" class="p-0" />
@@ -55,9 +53,9 @@ export default {
 
 img {
   position: relative;
-  justify-content: center;
   background-color: white;
-  min-width: 450px;
+  width: 100%;
+  height: auto;
 }
 
 .about-me-container {
@@ -79,21 +77,32 @@ a {
   .image-container {
     width: 100%;
     left: 0%;
-    height: 50%;
-    text-align: center;
-    overflow: hidden;
+    height: 30%;
+    background-color: #e9e2d9;
   }
 
   img {
-    top: -45px;
-    min-width: 400px;
-    min-width: 450px;
+    width: 200px;
+    position: relative;
+    border-radius: 200px;
+  }
+
+  .about-me-container {
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    background-color: rgba(236, 222, 222, 0);
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 766px) and (max-width: 1050px) {
   .image-container {
-    left: 13%;
+    left: 11%;
+  }
+  img {
+    top: -10%;
+    left: -14%;
+    min-width: 400px;
   }
 }
 </style>

@@ -51,6 +51,7 @@ export default {
 .content-container-mobile {
   background-color: #c0857b;
   color: #fff;
+  padding: 0px;
 }
 
 .sidebar-container {
@@ -67,7 +68,8 @@ export default {
 }
 @media screen and (min-width: 0px) and (max-width: 766px) {
   .sidebar-container {
-    height: 50vh;
+    height: 30vh;
+    padding: 0px;
   }
 }
 </style>
