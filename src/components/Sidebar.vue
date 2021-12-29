@@ -25,7 +25,7 @@ export default {
   box-shadow: 0px 0px 15px 5px #4a343454;
   background-color: white;
   width: 33%;
-  left: 9%;
+  left: 10%;
   position: absolute;
   overflow: hidden;
   top: 0px;

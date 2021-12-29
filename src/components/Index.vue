@@ -6,9 +6,12 @@
           <Sidebar />
         </div>
         <div class="col d-md-none content-container-mobile">
+          <img src="../assets/third_image.jpg" class="p-0 mw-100" />
           <AboutMe />
           <TechnicalSkills />
+          <hr class="mt-5" />
           <History />
+          <hr class="mt-5" />
           <Contact />
         </div>
         <div class="col-md-6 col-lg-7 d-none d-md-block content-container">
@@ -68,6 +71,10 @@ export default {
 
 .history-container {
   background-color: #5b3832;
+}
+
+img {
+  box-shadow: 0px 0px 15px 5px #4a343454;
 }
 
 @media screen and (min-width: 0px) and (max-width: 766px) {

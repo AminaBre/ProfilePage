@@ -1,5 +1,5 @@
 <template>
-  <div class="row history-content">
+  <div class="row history-content mt-4">
     <div class="col-lg-6 p-5 education-content">
       <div class="row">
         <h3>Education</h3>

@@ -13,14 +13,22 @@
           please don't hesitate to contact me. 😄
         </p>
       </div>
-      <div class="row contact-info">
+      <div class="row contact-info mb-4">
         <div class="col">
-          <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="p-0" />
-          <p>linkedinlink</p>
+          <a href="https://www.linkedin.com/in/amina-brenneng-699190b0" target="_blank">
+            <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="p-0" />
+            <br />
+            Linkedin
+          </a>
         </div>
         <div class="col">
-          <font-awesome-icon :icon="['fas', 'envelope']" size="2x" class="p-0" />
-          <p class="media-body">aminahb@live.no</p>
+          <a href="mailto:aminahb@live.no">
+            <font-awesome-icon
+              :icon="['fas', 'envelope']"
+              size="2x"
+              class="p-0 icon"
+            /><br />amiahb@live.no
+          </a>
         </div>
       </div>
     </div>
@@ -40,12 +48,16 @@ export default {
   color: rgb(56, 31, 22);
 }
 
-.contact-info {
+a {
   color: rgb(84, 99, 88);
 }
 
+a:hover {
+  color: rgb(54, 66, 54);
+}
+
 button {
-  background-color: rgb(90, 122, 95);
+  background-color: rgb(124, 155, 128);
   width: 100%;
   border-radius: 0px;
 }

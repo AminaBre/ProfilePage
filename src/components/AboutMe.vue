@@ -1,6 +1,6 @@
 <template>
   <div class="row mt-4">
-    <div class="col">
+    <div class="col m-2">
       <div class="row">
         <h1>About me</h1>
       </div>
@@ -30,15 +30,15 @@
       <hr />
       <div class="row mt-4">
         <div class="col">
-          <font-awesome-icon icon="lightbulb" size="2x" class="p-0 tan" />
+          <font-awesome-icon icon="lightbulb" size="2x" class="p-0 icon" />
           <h5>Creative</h5>
         </div>
         <div class="col">
-          <font-awesome-icon icon="laptop-code" size="2x" class="p-0 tan" />
+          <font-awesome-icon icon="laptop-code" size="2x" class="p-0 icon" />
           <h5>Fast learner</h5>
         </div>
         <div class="col">
-          <font-awesome-icon icon="users" size="2x" class="p-0 tan" />
+          <font-awesome-icon icon="users" size="2x" class="p-0 icon" />
           <h5>Team player</h5>
         </div>
       </div>
@@ -58,7 +58,12 @@ export default {
   color: rgb(62, 26, 13);
 }
 
-.tan {
+.icon {
   color: rgb(62, 26, 13);
+  transition: transform 1.5s ease-in-out;
+}
+
+.icon:hover {
+  transform: rotate(360deg);
 }
 </style>
