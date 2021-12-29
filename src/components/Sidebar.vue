@@ -1,41 +1,22 @@
 <template>
-  <div class="row">
-    <div class="col-md-2 d-none d-md-block">
-      <Navigation />
+  <div class="col-md-2 d-none d-md-block">
+    <Navigation />
+  </div>
+  <div class="col image-container">
+    <div class="row">
+      <img src="../assets/fadeout-profile.jpg" class="p-0" />
     </div>
-    <div class="col image-container">
-      <div class="row">
-        <img src="../assets/fadeout-profile.jpg" class="p-0" />
-        <div class="row about-me-container m-0">
-          <p class="name mx-0 my-2">Amina Brenneng</p>
-          <div class="col">
-            <a href="https://www.linkedin.com/in/amina-brenneng-699190b0" target="_blank"
-              ><font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="p-0"
-            /></a>
-          </div>
-          <div class="col">
-            <a href="https://github.com/AminaBre" target="_blank">
-              <font-awesome-icon :icon="['fab', 'github']" size="2x" class="p-0" />
-            </a>
-          </div>
-          <div class="col">
-            <a href="mailto:aminahb@live.no">
-              <font-awesome-icon :icon="['fas', 'envelope']" size="2x" class="p-0" />
-            </a>
-          </div>
-          <button class="btn-md btn-outline-dark py-3 mt-3">Download CV</button>
-        </div>
-      </div>
-    </div>
+    <Links />
   </div>
 </template>
 
 <script>
 import Navigation from './Navigation.vue';
+import Links from './Links.vue';
 
 export default {
   name: 'Sidebar',
-  components: { Navigation },
+  components: { Navigation, Links },
 };
 </script>
 
@@ -56,21 +37,7 @@ img {
   background-color: white;
   width: 100%;
   height: auto;
-}
-
-.about-me-container {
-  background-color: rgba(240, 237, 233, 0.301);
-  width: 100%;
-  position: absolute;
-  bottom: 10px;
-}
-
-.name {
-  font-size: 2rem;
-}
-
-a {
-  color: rgb(77, 97, 80);
+  top: -30px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 766px) {
@@ -97,12 +64,16 @@ a {
 
 @media screen and (min-width: 766px) and (max-width: 1050px) {
   .image-container {
-    left: 11%;
+    left: 13%;
   }
   img {
-    top: -10%;
+    top: 40px;
     left: -14%;
     min-width: 400px;
+  }
+
+  .about-me-container {
+    bottom: 30%;
   }
 }
 </style>

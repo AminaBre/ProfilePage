@@ -2,13 +2,14 @@
   <transition name="fade" appear>
     <div class="main-container p-md-5">
       <div class="row">
-        <div class="col-md-6 col-lg-5 sidebar-container">
+        <div class="col-md-6 col-lg-5 d-none d-md-block sidebar-container">
           <Sidebar />
         </div>
         <div class="col d-md-none content-container-mobile">
           <AboutMe />
           <TechnicalSkills />
           <History />
+          <Contact />
         </div>
         <div class="col-md-6 col-lg-7 d-none d-md-block content-container">
           <router-view />
@@ -23,6 +24,7 @@ import Sidebar from './Sidebar.vue';
 import AboutMe from './AboutMe.vue';
 import TechnicalSkills from './TechnicalSkills.vue';
 import History from './History.vue';
+import Contact from './Contact.vue';
 
 export default {
   name: 'Index',
@@ -31,6 +33,7 @@ export default {
     AboutMe,
     TechnicalSkills,
     History,
+    Contact,
   },
 };
 </script>
@@ -44,7 +47,7 @@ export default {
 .content-container {
   background-color: #c0857b;
   color: #fff;
-  overflow: auto;
+  overflow-y: scroll;
   height: 90vh;
 }
 
@@ -66,6 +69,7 @@ export default {
 .history-container {
   background-color: #5b3832;
 }
+
 @media screen and (min-width: 0px) and (max-width: 766px) {
   .sidebar-container {
     height: 30vh;

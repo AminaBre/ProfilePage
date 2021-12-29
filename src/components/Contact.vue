@@ -4,6 +4,9 @@
       <div class="row my-4">
         <h1>Get in touch</h1>
       </div>
+      <div class="row my-4">
+        <button class="btn py-3 btn-block">Download CV</button>
+      </div>
       <div class="row mb-4">
         <p>
           If you're curious about my resume or have any further questions, <br />
@@ -18,10 +21,6 @@
         <div class="col">
           <font-awesome-icon :icon="['fas', 'envelope']" size="2x" class="p-0" />
           <p class="media-body">aminahb@live.no</p>
-        </div>
-        <div class="col mb-4">
-          <font-awesome-icon :icon="['fas', 'phone']" size="2x" class="p-0" />
-          <p class="media-body">+4740644715</p>
         </div>
       </div>
     </div>
@@ -43,5 +42,15 @@ export default {
 
 .contact-info {
   color: rgb(84, 99, 88);
+}
+
+button {
+  background-color: rgb(90, 122, 95);
+  width: 100%;
+  border-radius: 0px;
+}
+button:hover {
+  background-color: rgb(65, 92, 65);
+  color: white;
 }
 </style>
