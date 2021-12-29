@@ -14,7 +14,7 @@
       </a>
     </div>
     <div class="col">
-      <a href="mailto:aminahb@live.no">
+      <a href="mailto:aminabrenneng@gmail.com">
         <font-awesome-icon :icon="['fas', 'envelope']" size="2x" class="p-0 icon" />
       </a>
     </div>
