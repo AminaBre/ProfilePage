@@ -6,7 +6,7 @@
           <Sidebar />
         </div>
         <div class="col d-md-none content-container-mobile">
-          <img src="../assets/third_image.jpg" class="p-0 mw-100" />
+          <img src="../assets/third_image.jpg" class="p-0" />
           <AboutMe />
           <TechnicalSkills />
           <hr class="mt-5" />
@@ -74,6 +74,7 @@ export default {
 }
 
 img {
+  width: 250px;
   box-shadow: 0px 0px 15px 5px #4a343454;
 }
 
