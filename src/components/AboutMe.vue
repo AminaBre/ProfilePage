@@ -6,7 +6,7 @@
       </div>
       <div class="row my-2">
         <h5>
-          I wish to create innovative user experiences, that excels the customers expectations.
+          I wish to create innovative user experiences, that exceed the customers expectations.
         </h5>
       </div>
 
@@ -18,13 +18,12 @@
       </div>
       <div class="row mt-2 px-4">
         <p>
-          My name is Amina, I'm currently writing my bachelor thesis for Frontend and Mobile
+          My name is Amina. I'm currently writing my bachelor thesis for Frontend and Mobile
           Development at Høyskolen Kristiania. I have always had a passion for technology and
-          innovation, but I also have an eye for customer experience optimization and design. I love
-          to challenge myself, and front-end development allows me to combine all of my skills while
-          still being able to learn new things every single day. For the past two years I have
-          combined being a full-time student and working three part-time jobs. I'm a very hard
-          worker that always strive to be the best at what I do.
+          innovation, as well as optimizing customer experiences. I love to challenge myself, and
+          front-end development allows me to combine all of my skills while still being able to
+          learn new things every day. I'm currently balancing being a full-time student, part-time
+          front-end developer and a lecturer in programming.
         </p>
       </div>
       <hr />

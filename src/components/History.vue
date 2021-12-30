@@ -11,14 +11,14 @@
           </div>
           <div class="col-10 header-text">
             <h5>Front-end and Mobile Development</h5>
-            <h6>Bachelors degree, Høyskolen Kristiania</h6>
+            <h6>Bachelor's degree, Høyskolen Kristiania</h6>
           </div>
         </div>
         <div class="row card-content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cum similique dolorum saepe
-            impedit. Numquam harum quia, qui voluptatibus corrupti ut explicabo consectetur
-            expedita, quisquam quaerat quidem molestias obcaecati animi.
+            This bachelor's degree taught me how to develop high quality web pages and
+            cross-platform applications. I learned the importance of UX and UI-design, and how to
+            make great, intuitive user experiences. I'm currently working on my bachelor thesis.
           </p>
         </div>
       </div>
@@ -28,15 +28,17 @@
             <font-awesome-icon icon="graduation-cap" size="2x" class="p-0" />
           </div>
           <div class="col-10 header-text">
-            <h5>Frontend and Mobile Development</h5>
-            <h6>Bachelors degree, Høyskolen Kristiania</h6>
+            <h5>Marketing and Leadership</h5>
+            <h6>Bachelor's degree, BI</h6>
           </div>
         </div>
         <div class="row card-content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cum similique dolorum saepe
-            impedit. Numquam harum quia, qui voluptatibus corrupti ut explicabo consectetur
-            expedita, quisquam quaerat quidem molestias obcaecati animi.
+            This degree taught me about how customers and consumers think, make decisions and how to
+            meet their needs. I also learned about leadership and management which I find very
+            interesting. In my bachelor thesis I discussed how bad management and leadership could
+            affect the business long term, and what measures the management can implement to improve
+            the work environment. <br /><br /><b>I received a grade A on my bachelor thesis.</b>
           </p>
         </div>
       </div>
