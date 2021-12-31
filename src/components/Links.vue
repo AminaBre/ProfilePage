@@ -9,7 +9,7 @@
       /></a>
     </div>
     <div class="col">
-      <a href="../../public/CV-AminaBrenneng.pdf" download>
+      <a :href="`${publicPath}CV-AminaBrenneng.pdf`" download="download">
         <font-awesome-icon :icon="['fas', 'file-download']" size="2x" class="p-0 icon" />
       </a>
     </div>
@@ -23,6 +23,9 @@
 <script>
 export default {
   name: 'Links',
+  data() {
+    return { publicPath: process.env.BASE_URL };
+  },
 };
 </script>
 <style scoped>
@@ -37,7 +40,6 @@ export default {
   top: -70px;
 }
 .name {
-  font-size: 2.5rem;
   color: rgb(70, 43, 42);
 }
 a {

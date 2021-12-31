@@ -9,6 +9,7 @@ const routes = [
     path: '/',
     name: 'AboutMe',
     component: AboutMe,
+    meta: { title: 'About Me' },
   },
   {
     path: '/technicalSkills',

@@ -5,7 +5,9 @@
         <h1>Get in touch</h1>
       </div>
       <div class="row my-4">
-        <button class="btn py-3 btn-block">Download CV</button>
+        <a :href="`${publicPath}CV-AminaBrenneng.pdf`" download="download" class="p-0">
+          <button class="btn py-3 btn-block">Download CV</button>
+        </a>
       </div>
       <div class="row mb-4">
         <p>
@@ -38,6 +40,9 @@
 <script>
 export default {
   name: 'Contact',
+  data() {
+    return { publicPath: process.env.BASE_URL };
+  },
 };
 </script>
 

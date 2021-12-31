@@ -16,12 +16,12 @@
             <li>HTML/CSS</li>
             <li>Kotlin</li>
             <li>Swift</li>
-            <li>MySQL</li>
           </ul>
         </div>
         <div class="col">
           <ul>
             <li>Bootstrap</li>
+            <li>MySQL</li>
             <li>Moqups</li>
             <li>Adobe XD</li>
             <li>Git</li>
