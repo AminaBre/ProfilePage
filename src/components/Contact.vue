@@ -27,7 +27,7 @@
               :icon="['fas', 'envelope']"
               size="2x"
               class="p-0 icon"
-            /><br />aminabrenneng@gmail.com
+            /><br />AminaBrenneng@gmail.com
           </a>
         </div>
       </div>

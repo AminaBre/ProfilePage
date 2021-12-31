@@ -4,7 +4,7 @@
   </div>
   <div class="col image-container">
     <div class="row">
-      <img src="../assets/fadeout-profile.jpg" class="p-0" />
+      <img src="../assets/profile-image.png" class="p-0" />
     </div>
     <Links />
   </div>

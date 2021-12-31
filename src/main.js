@@ -18,6 +18,8 @@ import {
   faComment,
   faPhone,
   faLaptopCode,
+  faBriefcase,
+  faFileDownload,
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -40,6 +42,8 @@ library.add(
   faComment,
   faPhone,
   faLaptopCode,
+  faBriefcase,
+  faFileDownload,
 );
 
 createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

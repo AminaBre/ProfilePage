@@ -14,7 +14,7 @@
 
     <div class="row mt-4">
       <router-link to="/history"
-        ><font-awesome-icon icon="cogs" size="2x" class="p-0"
+        ><font-awesome-icon icon="briefcase" size="2x" class="p-0"
       /></router-link>
     </div>
 
