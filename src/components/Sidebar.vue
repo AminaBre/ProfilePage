@@ -53,13 +53,6 @@ img {
     position: relative;
     border-radius: 200px;
   }
-
-  .about-me-container {
-    width: 100%;
-    height: 100%;
-    right: 0px;
-    background-color: rgba(236, 222, 222, 0);
-  }
 }
 
 @media screen and (min-width: 766px) and (max-width: 1050px) {
@@ -70,10 +63,6 @@ img {
     top: 40px;
     left: -14%;
     min-width: 400px;
-  }
-
-  .about-me-container {
-    bottom: 30%;
   }
 }
 </style>

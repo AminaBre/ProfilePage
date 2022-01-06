@@ -6,7 +6,6 @@
       </div>
       <hr />
       <div class="row mt-4">
-        <b-progress :value="value" :max="max" show-progress animated></b-progress>
         <div class="col">
           <ul>
             <li>React</li>
