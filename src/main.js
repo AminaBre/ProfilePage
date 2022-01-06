@@ -9,13 +9,41 @@ import {
   faCogs,
   faCode,
   faEnvelope,
-  faFeatherAlt,
+  faLightbulb,
   faBookReader,
   faUsers,
+  faGraduationCap,
+  faGlasses,
+  faShieldAlt,
+  faComment,
+  faPhone,
+  faLaptopCode,
+  faBriefcase,
+  faFileDownload,
 } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import App from './App.vue';
+import router from './router';
 
-library.add(faUser, faCogs, faCode, faEnvelope, faFeatherAlt, faBookReader, faUsers);
+library.add(
+  faUser,
+  faCogs,
+  faCode,
+  faEnvelope,
+  faLightbulb,
+  faBookReader,
+  faUsers,
+  faGraduationCap,
+  faGlasses,
+  faShieldAlt,
+  faGithub,
+  faLinkedin,
+  faComment,
+  faPhone,
+  faLaptopCode,
+  faBriefcase,
+  faFileDownload,
+);
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
+createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

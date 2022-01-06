@@ -1,39 +1,44 @@
 <template>
   <div class="row mt-4">
-    <div class="col">
+    <div class="col m-2">
       <div class="row">
-        <h1>Amina Brenneng</h1>
+        <h1>About me</h1>
       </div>
+      <div class="row my-2">
+        <h5>
+          I wish to create innovative user experiences, that exceed the customers expectations.
+        </h5>
+      </div>
+
       <hr />
       <div class="row facts">
-        <div class="col"><p>Oslo</p></div>
-        <div class="col"><p>Front-end Developer</p></div>
-        <div class="col"><p>25 yrs</p></div>
+        <div class="col"><h5>Oslo</h5></div>
+        <div class="col"><h5>Front-end Developer</h5></div>
+        <div class="col"><h5>25 yrs</h5></div>
       </div>
       <div class="row mt-2 px-4">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-          a galley of type and scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-          Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+          My name is Amina. I'm currently writing my bachelor thesis for Frontend and Mobile
+          Development at Høyskolen Kristiania. I have always had a passion for technology and
+          innovation, as well as optimizing customer experiences. I love to challenge myself, and
+          front-end development allows me to combine all of my skills while still being able to
+          learn new things every day. I'm currently balancing being a full-time student, part-time
+          front-end developer and a lecturer in programming.
         </p>
       </div>
       <hr />
       <div class="row mt-4">
         <div class="col">
-          <font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" />
-          <p>Creative</p>
+          <font-awesome-icon icon="lightbulb" size="2x" class="p-0 icon" />
+          <h5>Creative</h5>
         </div>
         <div class="col">
-          <font-awesome-icon icon="book-reader" size="2x" class="p-0 tan" />
-          <p>Fast learner</p>
+          <font-awesome-icon icon="laptop-code" size="2x" class="p-0 icon" />
+          <h5>Fast learner</h5>
         </div>
         <div class="col">
-          <font-awesome-icon icon="users" size="2x" class="p-0 tan" />
-          <p>Team player</p>
+          <font-awesome-icon icon="users" size="2x" class="p-0 icon" />
+          <h5>Team player</h5>
         </div>
       </div>
       <hr />
@@ -49,10 +54,15 @@ export default {
 
 <style scoped>
 .facts {
-  color: rgb(96, 55, 40);
+  color: rgb(62, 26, 13);
 }
 
-.tan {
+.icon {
   color: rgb(62, 26, 13);
+  transition: transform 1.5s ease-in-out;
+}
+
+.icon:hover {
+  transform: rotate(360deg);
 }
 </style>

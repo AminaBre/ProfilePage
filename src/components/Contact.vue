@@ -1,24 +1,36 @@
 <template>
   <div class="row contact-container">
     <div class="col contact-content m-5">
-      <div class="row">
-        <h1>Contact me</h1>
+      <div class="row my-4">
+        <h1>Get in touch</h1>
       </div>
-      <div class="row contact-info">
-        <div class="col-5">
-          <img src="../assets/profilepic.png" class="mw-100" />
+      <div class="row my-4">
+        <a :href="`${publicPath}CV-AminaBrenneng.pdf`" download="download" class="p-0">
+          <button class="btn py-3 btn-block">Download CV</button>
+        </a>
+      </div>
+      <div class="row mb-4">
+        <p>
+          If you're curious about my resume or have any further questions, <br />
+          please don't hesitate to contact me. 😄
+        </p>
+      </div>
+      <div class="row contact-info mb-4">
+        <div class="col">
+          <a href="https://www.linkedin.com/in/amina-brenneng-699190b0" target="_blank">
+            <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="p-0" />
+            <br />
+            Linkedin
+          </a>
         </div>
-        <div class="col-1 icons">
-          <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
-          <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
-          <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
-          <div class="row"><font-awesome-icon icon="feather-alt" size="2x" class="p-0 tan" /></div>
-        </div>
-        <div class="col-6 links">
-          <div class="row"><p>aminahb@live.no</p></div>
-          <div class="row"><p>+4740644715</p></div>
-          <div class="row"><p>githublink</p></div>
-          <div class="row"><p>linkedinlink</p></div>
+        <div class="col">
+          <a href="mailto:aminabrenneng@gmail.com">
+            <font-awesome-icon
+              :icon="['fas', 'envelope']"
+              size="2x"
+              class="p-0 icon"
+            /><br />AminaBrenneng@gmail.com
+          </a>
         </div>
       </div>
     </div>
@@ -28,6 +40,9 @@
 <script>
 export default {
   name: 'Contact',
+  data() {
+    return { publicPath: process.env.BASE_URL };
+  },
 };
 </script>
 
@@ -35,14 +50,24 @@ export default {
 .contact-content {
   background-color: white;
   box-shadow: 0px 0px 15px 5px #4a343454;
+  color: rgb(56, 31, 22);
 }
 
-.contact-info {
+a {
   color: rgb(84, 99, 88);
 }
 
-.links {
-  color: rgb(96, 55, 40);
-  text-align: left;
+a:hover {
+  color: rgb(54, 66, 54);
+}
+
+button {
+  background-color: rgb(124, 155, 128);
+  width: 100%;
+  border-radius: 0px;
+}
+button:hover {
+  background-color: rgb(65, 92, 65);
+  color: white;
 }
 </style>
