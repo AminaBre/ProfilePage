@@ -10,12 +10,7 @@
     </div>
     <div class="col">
       <a :href="`${publicPath}CV-AminaBrenneng.pdf`" download="download">
-        <font-awesome-icon
-          :icon="['fas', 'file-download']"
-          size="2x"
-          class="p-0 icon"
-          v-b-tooltip
-        />
+        <font-awesome-icon :icon="['fas', 'file-download']" size="2x" class="p-0 icon" />
       </a>
     </div>
     <div class="col">
