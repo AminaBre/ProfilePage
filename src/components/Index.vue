@@ -6,7 +6,7 @@
           <Sidebar />
         </div>
         <div class="col d-md-none content-container-mobile">
-          <img src="../assets/third_image.jpg" class="p-0" />
+          <img src="../assets/cropped-img.png" class="p-0 circle-image" />
           <AboutMe />
           <TechnicalSkills />
           <hr class="mt-5" />
@@ -42,6 +42,18 @@ export default {
 </script>
 
 <style scoped>
+.enter-from {
+  opacity: 0;
+}
+
+.enter-to {
+  opacity: 1;
+}
+
+.enter-active {
+  transition: opacity 2s ease;
+}
+
 .main-container {
   height: 100vh;
   background-color: rgb(238, 225, 220);
@@ -57,7 +69,11 @@ export default {
 .content-container-mobile {
   background-color: #c0857b;
   color: #fff;
-  padding: 0px;
+}
+
+.circle-image {
+  border-radius: 200px;
+  background-color: rgb(238, 234, 226);
 }
 
 .sidebar-container {
