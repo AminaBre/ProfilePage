@@ -1,6 +1,8 @@
-# profile-page
+# Portfolio-page
 
-## Project setup
+### This portfolio-page is coded in Vue.
+
+### To run the project, follow these steps:
 ```
 npm install
 ```
@@ -9,16 +11,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
