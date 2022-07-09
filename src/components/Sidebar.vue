@@ -2,20 +2,14 @@
   <div class="col-md-2 d-none d-md-block">
     <Navigation />
   </div>
-  <div class="col image-container">
-    <div class="row">
-      <img src="../assets/profile-image.png" class="p-0" />
-    </div>
-    <Links />
-  </div>
 </template>
 
 <script>
-import Navigation from './Navigation.vue';
-import Links from './Links.vue';
+import Navigation from "./Navigation.vue";
+import Links from "./Links.vue";
 
 export default {
-  name: 'Sidebar',
+  name: "Sidebar",
   components: { Navigation, Links },
 };
 </script>

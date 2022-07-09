@@ -1,38 +1,28 @@
 <template>
   <transition name="fade" appear>
-    <div class="main-container p-md-5">
-      <div class="row">
-        <div class="col-md-6 col-lg-5 d-none d-md-block sidebar-container">
-          <Sidebar />
+    <div class="main-container p-md-4">
+      <div class="content-container">
+        <div class="row px-5">
+          <Navigation />
+          <hr class="px-5" />
         </div>
-        <div class="col d-md-none content-container-mobile">
-          <img src="../assets/cropped-img.png" class="p-0 circle-image" />
-          <AboutMe />
-          <TechnicalSkills />
-          <hr class="mt-5" />
-          <History />
-          <hr class="mt-5" />
-          <Contact />
-        </div>
-        <div class="col-md-6 col-lg-7 d-none d-md-block content-container">
-          <router-view />
-        </div>
+        <AboutMe />
       </div>
     </div>
   </transition>
 </template>
 
 <script>
-import Sidebar from './Sidebar.vue';
-import AboutMe from './AboutMe.vue';
-import TechnicalSkills from './TechnicalSkills.vue';
-import History from './History.vue';
-import Contact from './Contact.vue';
+import Navigation from "./Navigation.vue";
+import AboutMe from "./AboutMe.vue";
+import TechnicalSkills from "./TechnicalSkills.vue";
+import History from "./History.vue";
+import Contact from "./Contact.vue";
 
 export default {
-  name: 'Index',
+  name: "Index",
   components: {
-    Sidebar,
+    Navigation,
     AboutMe,
     TechnicalSkills,
     History,
@@ -41,7 +31,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap");
+
+a {
+  color: black;
+}
+
 .enter-from {
   opacity: 0;
 }
@@ -56,14 +52,44 @@ export default {
 
 .main-container {
   height: 100vh;
-  background-color: rgb(238, 225, 220);
+  background-color: #b3c5ca;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.1em solid rgb(0, 0, 0);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.18em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(82, 82, 82);
+  }
 }
 
 .content-container {
-  background-color: #c0857b;
-  color: #fff;
-  overflow-y: scroll;
-  height: 90vh;
+  background-color: #ffffff;
+  height: 94vh;
 }
 
 .content-container-mobile {
@@ -90,8 +116,7 @@ export default {
 }
 
 img {
-  width: 250px;
-  box-shadow: 0px 0px 15px 5px #4a343454;
+  width: 100%;
 }
 
 @media screen and (min-width: 0px) and (max-width: 766px) {
