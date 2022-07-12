@@ -1,12 +1,12 @@
 <template>
   <transition name="fade" appear>
-    <div class="main-container p-md-4">
+    <div class="main-container px-md-4">
       <div class="content-container">
-        <div class="row px-5">
+        <div class="row p-3">
           <Navigation />
           <hr class="px-5" />
         </div>
-        <AboutMe />
+        <router-view />
       </div>
     </div>
   </transition>
@@ -35,7 +35,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap");
 
 a {
-  color: black;
+  color: rgb(61, 45, 37);
 }
 
 .enter-from {
@@ -50,46 +50,16 @@ a {
   transition: opacity 2s ease;
 }
 
+h1 {
+  font-family: "Roboto Mono", monospace;
+}
+
 .main-container {
   height: 100vh;
-  background-color: #b3c5ca;
-  font-family: "Roboto Mono", monospace;
+  background-color: #bfa89d;
   text-align: left;
-}
-
-.typewriter h1 {
-  overflow: hidden;
-  border-right: 0.1em solid rgb(0, 0, 0);
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.18em;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: rgb(82, 82, 82);
-  }
-}
-
-.content-container {
-  background-color: #ffffff;
-  height: 94vh;
+  color: #fff;
+  overflow-y: scroll;
 }
 
 .content-container-mobile {
@@ -100,11 +70,6 @@ a {
 .circle-image {
   border-radius: 200px;
   background-color: rgb(238, 234, 226);
-}
-
-.sidebar-container {
-  background-color: #c0857b;
-  height: 90vh;
 }
 
 .contact-container {

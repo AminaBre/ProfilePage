@@ -31,12 +31,12 @@ export default {
 }
 
 a:hover {
-  color: rgb(62, 26, 13);
+  color: rgb(247, 232, 226);
   transform: scale(1.2);
 }
 
 a.router-link-active {
-  color: rgb(62, 26, 13);
+  color: rgb(247, 232, 226);
   transform: scale(1.2);
 }
 </style>
